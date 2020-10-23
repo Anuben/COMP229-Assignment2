@@ -1,0 +1,33 @@
+<%- include partials/header.ejs%>
+<%- include partials/main_nav.ejs %>
+
+  <!--Main Content-->
+<main class="container">
+  <div class="jumbotron">
+    <% switch (title) {
+      case'Home' : %>
+      <%- include home.ejs %>
+        <% break;
+      case 'About' : %>
+      <%- include about.ejs %>
+        <% break;
+        case 'Products' : %>
+        <%- include products.ejs %>
+        <% break;       
+      case 'Services' : %>
+      <%- include services.ejs %>
+        <% break;    
+      case 'Contact' : %>
+      <%- include contact.ejs %>
+      <% break;
+      } %>
+    <hr class="my-4">
+  </div> 
+  </div>
+</main>
+
+
+
+<!--Bottom Nav Footer-->
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs%>
