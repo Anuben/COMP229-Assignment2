@@ -46,12 +46,12 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "//github.com/Anuben/COMP229-Assignment2"
+    "url": "https://github.com/Anuben/COMP229-Assignment2"
   },
   "author": "Anuben Keshavala",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6/issues"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6#readme"
+  "homepage": "https://github.com/Anuben/COMP229-Assignment2"
 }

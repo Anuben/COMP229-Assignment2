@@ -22,7 +22,7 @@ module.exports.displayBusinessList = (req, res, next) => {
             BusinessList: businessList, 
             displayName: req.user ? req.user.displayName : ''});      
         }
-    });
+    }).sort({"name":1}); //Business Contact list alphabatically sorted
 }
 
 module.exports.displayAddPage = (req, res, next) => {
